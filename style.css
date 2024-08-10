@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    width: 100%;
+    text-decoration: none;
+}
+nav{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+nav:hover{
+    background-color: black;
+}
+button:hover{
+    background-color: blue;
+
+}
+.x:hover{
+    background-color: blue;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1,p{
+    text-align: center;
+}
+.x{
+    height: 350px;
+    width: 33%;
+    text-align: center;
+}
+
+.case{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
